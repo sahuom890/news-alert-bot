@@ -1,6 +1,13 @@
 # 🚀 Production-Ready Web Scraper & Discord Alert Bot
 
-A modular, fault-tolerant news aggregation and real-time alert daemon built in Python 3.10+. The pipeline automatically scrapes top stories from public tech feeds (Hacker News), filters and deduplicates them using an indexed SQLite datastore (with WAL mode), dispatches rich embeds to Discord webhooks with automatic rate-limit handling, and provides a real-time web dashboard on `localhost`.
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Render%20Dashboard-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://news-alert-bot-pcdu.onrender.com/)
+[![CI Build](https://img.shields.io/github/actions/workflow/status/sahuom890/news-alert-bot/ci.yml?branch=main&label=CI%20Build&style=for-the-badge)](https://github.com/sahuom890/news-alert-bot/actions)
+[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://python.org)
+[![FastAPI](https://img.shields.io/badge/FastAPI-0.110+-009688?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
+
+> 🌐 **Live Cloud Dashboard:** [https://news-alert-bot-pcdu.onrender.com](https://news-alert-bot-pcdu.onrender.com)
+
+A modular, fault-tolerant news aggregation and real-time alert daemon built in Python 3.10+. The pipeline automatically scrapes top stories from public tech feeds (Hacker News), filters and deduplicates them using an indexed SQLite datastore (with WAL mode), dispatches rich embeds to Discord webhooks with automatic rate-limit handling, and provides a real-time web dashboard.
 
 ---
 
@@ -117,7 +124,7 @@ A modular, fault-tolerant news aggregation and real-time alert daemon built in P
 
 ```bash
 # Clone the repository
-git clone https://github.com/sahuom890/Document-Classifier.git news-alert-bot
+git clone https://github.com/sahuom890/news-alert-bot.git
 cd news-alert-bot
 
 # Create and activate a virtual environment

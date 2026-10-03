@@ -965,7 +965,7 @@ def test_webhook() -> dict[str, Any]:
     test_item = ScrapedItem(
         id=f"test_{int(time.time())}",
         title="Test Alert: High-Performance Python Web Scraper Verified",
-        url="https://github.com/sahuom890/Document-Classifier",
+        url="https://github.com/sahuom890/news-alert-bot",
         source="Hacker News (Test)",
         score=256,
         comments_count=42,
