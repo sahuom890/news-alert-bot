@@ -1,0 +1,31 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Virtual Environments
+venv/
+env/
+ENV/
+.venv/
+
+# Environment Variables & Secrets (CRITICAL: never commit credentials)
+.env
+.env.local
+.env.*.local
+
+# SQLite Database & WAL logs
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+alerts.db
+
+# IDE & OS files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
